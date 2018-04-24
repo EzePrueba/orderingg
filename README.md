@@ -40,9 +40,23 @@ python fixture.py
 
 ## Iniciar app
 
-`python orderingg.py`
+En Windows
 
-o
+-cmd
+```bash
+set FLASK_APP=orderingg.py
+flask db upgrade
+python fixture.py
+```
+
+-PowerShell
+```bash
+$env:FLASK_APP="orderingg.py"
+flask db upgrade
+python fixture.py
+```
+
+## Iniciar app
 
 En Linux
 
