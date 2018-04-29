@@ -74,7 +74,7 @@
             data: state.order
         });
     }
-
+	
     init();
     window.refs = refs;
 })()
